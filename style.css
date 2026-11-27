@@ -7,3 +7,129 @@ html {
 body {
   font-size: 1.6rem;
 }
+/* header */
+.header {
+  padding-top: 30px;
+  background: rgb(10, 15, 80);
+  min-height: 100vh;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 50px;
+}
+/* container */
+.container {
+  max-width: calc(100% - 40px);
+  width: 1000px;
+  margin: 0 auto;
+}
+.header-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar__list {
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+.navbar__link {
+  padding: 10px 21px;
+  color: rgb(242, 242, 242);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.75rem;
+}
+.navbar__link--active {
+  text-shadow: 1px 0 0 currentColor;
+  color: aliceblue;
+}
+li {
+  list-style: none;
+}
+a:hover {
+  color: rgb(254, 254, 254);
+}
+.action__btn2:hover {
+  background: rgb(74, 72, 211);
+  display: inline-block;
+  min-width: 90px;
+  line-height: 40px;
+  color: aliceblue;
+  text-align: center;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 900px;
+}
+.action__btn1 {
+  margin-right: 20px;
+  margin-left: 150px;
+  background: rgb(24, 79, 221);
+  display: inline-block;
+  min-width: 90px;
+  line-height: 40px;
+  color: aliceblue;
+  text-align: center;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 900px;
+}
+.hero__img-large {
+  z-index: 3;
+  border-radius: 10px;
+  width: 330px;
+  height: 540px;
+}
+.hero__img-samll {
+  border-radius: 20px;
+  width: 210px;
+  height: 410px;
+}
+.hero {
+  display: flex;
+  padding-top: 76px;
+  align-items: center;
+}
+.hero__heading {
+  color: #429aa7;
+  font-size: 7rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -1.4;
+}
+.hero__kl {
+  margin-top: 22px;
+  color: rgb(120, 199, 149);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+}
+.btn {
+  margin-top: 20px;
+  background: blue;
+  display: inline-block;
+  min-width: 120px;
+  line-height: 50px;
+  color: aliceblue;
+  text-align: center;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 900px;
+}
+.hero__phone {
+  margin-left: 50px;
+  color: rgb(119, 13, 96);
+}
+.hero__imges {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
